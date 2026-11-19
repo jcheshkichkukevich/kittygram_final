@@ -8,7 +8,7 @@ on:
 jobs:
   tests:
     name: Backend - ruff and tests
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     services:
       postgres:
         image: postgres:13
